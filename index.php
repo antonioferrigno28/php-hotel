@@ -77,7 +77,7 @@ if(isset($_GET['parcheggio'])) {
 
 if(isset($_GET['voto'])) {
     $searching_vote = $_GET['voto'];
-    var_dump($searching_vote);
+    
 }
 
 foreach ($hotels as $hotel) { 
